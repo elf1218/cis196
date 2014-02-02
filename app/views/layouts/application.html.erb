@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hw2</title>
+  <title>Google</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+    <div class = "navbar">
+        <ul class = "nav">
+            <li>+Kevin</li>
+            <li>Gmail</li>
+            <li>Images</li>
+            <li>apps</li>
+            <li>notis</li>
+            <li>Share</li>
+            <li>gplus</li>
+        </ul>
+    </div>
 
 <%= yield %>
+
+    <div class = "footer">
+        <ul class = "ft">
+            <li>Advertising</li>
+            <li>Business</li>
+            <li>About</li>
+            <div id="right-links">
+                <li>Privacy & Terms</li>
+                <li>Settings</li>
+            </div>
+        </ul>
+    </div>
 
 </body>
 </html>
