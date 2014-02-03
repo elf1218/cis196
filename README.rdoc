@@ -11,16 +11,16 @@ was interesting in terms of trying to figure out the borders and dimensions of t
 
 PROJECT IDEAS:
 
-1. Persistent group calendar site - can log in, create own calendar (which is stored between visits), create appointments on that calendar and edit those
+Persistent group calendar site - can log in, create own calendar (which is stored between visits), create appointments on that calendar and edit those
 appointments (similar to Google Calendar). Can also share calendar with other users (based on user name?) - each person's created appointments are differentiable
 and edit-gated (only creator can edit their own appointments) - this can be useful for finding who's free when, letting a couple coordinate their schedules/know
 what others are doing, for a teacher to organize office hours, etc.
 
-2. Some sort of interactive game site...possibly chess - possibly internet version of correspondance chess, where you make a move, then wait for other player to
+Some sort of interactive game site...possibly chess - possibly internet version of correspondance chess, where you make a move, then wait for other player to
 make a move, where moves aren't in real time (i.e. make a move, go do something else, recieve an email notification when your opponent makes his move perhaps
 several hours later). Can invite a player by email or log-in? Can have parallel games going. Underlying it, there has to be the real chess game logic (no illegal
 moves and stuff) - possibly also a move history (board states are distinctive links maybe?) that lets players analyze games - some sort of sharing afterwards for
 a well played game?
 
-3. Online messenger (similar to fb messenger) including group chat - has file sharing capabilities, persistent chat history, possibly ability to edit/delete past
+Online messenger (similar to fb messenger) including group chat - has file sharing capabilities, persistent chat history, possibly ability to edit/delete past
 messages, maybe some sort of notification when a message is sent - this might be too small in scope, if so, can link this to one of the other 2 projects
