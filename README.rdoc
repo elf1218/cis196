@@ -1,28 +1,26 @@
-== README
+HEROKU SITE: http://pacific-hamlet-9652.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+For this homework, I recreated the google homepage. This was challenging on several different levels. Firstly, the google homepage source code was highly complex
+and sifting through it, trying to figure out which divs did what and where the appropriate css was was very difficult. However, Chrome's RC->Inspect Element was
+extremely useful in being able to find out the size of certain areas and appropriate colors. After that, it was fairly straightforward and somewhat similar to the
+LinkedIn example in class, and my implementation was quite heavily based on that. The top bar was created in a very similar fashion to LinkedIn's top bar, with
+some text links and some image links. It took me a while to figure out that I could set display: inline-block to make the full images show up.
 
-Things you may want to cover:
+The bottom bar was very very simple and took the least time to make out of all the parts (only text, google's implementation was simple). The middle of the page
+was interesting in terms of trying to figure out the borders and dimensions of the different parts, but not too difficult.
 
-* Ruby version
+PROJECT IDEAS:
 
-* System dependencies
+1. Persistent group calendar site - can log in, create own calendar (which is stored between visits), create appointments on that calendar and edit those
+appointments (similar to Google Calendar). Can also share calendar with other users (based on user name?) - each person's created appointments are differentiable
+and edit-gated (only creator can edit their own appointments) - this can be useful for finding who's free when, letting a couple coordinate their schedules/know
+what others are doing, for a teacher to organize office hours, etc.
 
-* Configuration
+2. Some sort of interactive game site...possibly chess - possibly internet version of correspondance chess, where you make a move, then wait for other player to
+make a move, where moves aren't in real time (i.e. make a move, go do something else, recieve an email notification when your opponent makes his move perhaps
+several hours later). Can invite a player by email or log-in? Can have parallel games going. Underlying it, there has to be the real chess game logic (no illegal
+moves and stuff) - possibly also a move history (board states are distinctive links maybe?) that lets players analyze games - some sort of sharing afterwards for
+a well played game?
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+3. Online messenger (similar to fb messenger) including group chat - has file sharing capabilities, persistent chat history, possibly ability to edit/delete past
+messages, maybe some sort of notification when a message is sent - this might be too small in scope, if so, can link this to one of the other 2 projects
